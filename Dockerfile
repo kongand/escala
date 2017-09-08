@@ -32,5 +32,8 @@ RUN composer install
 # Make port 80 available to the world outside this container
 EXPOSE 80
 
+# Changin user to run the last command as root
+USER root
+
 # Run the php server when the container launches
 CMD ["php", "-S", "0.0.0.0:80", "-t", "public"]

@@ -10,7 +10,7 @@ RUN apt-get update && \
 # Copy the current directory contents into the container at /escala
 COPY . /escala
 
-# Create a non-root user && provide ownership of /escala nonroot user.
+# Create a non-root user && provide ownership of /escala to nonroot user.
 # We do this because it's unsafe to run composer install as root. More info: 
 # https://getcomposer.org/doc/faqs/how-to-install-untrusted-packages-safely.md
 RUN useradd -ms /bin/bash nonroot && chown -R nonroot /escala

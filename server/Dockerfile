@@ -6,6 +6,3 @@ EXPOSE 80
 
 # Copy configuration file into container
 COPY ./server/nginx.conf /etc/nginx/conf.d/default.conf
-
-# TEMPORARY: Copy src code into container
-COPY ./resources /resources

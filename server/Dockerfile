@@ -5,4 +5,4 @@ FROM nginx:1.13.5
 EXPOSE 80
 
 # Copy configuration file into container
-COPY ./server/nginx.conf /etc/nginx/conf.d/default.conf
+COPY ./server/escala.conf /etc/nginx/conf.d/1506268490_escala.conf

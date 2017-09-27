@@ -10,3 +10,10 @@ services:
     image: php:7-fpm
     volumes:
       - ./:/escala
+
+  composer:
+    image: composer:latest
+    volumes:
+      - ./composer.json:/escala/composer.json
+    working_dir: /escala
+    command: install

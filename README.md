@@ -4,7 +4,8 @@ This is a learning project regarding system infrastructure and scalability.
 
 ## Prerequisites
 
-Ensure that you have [docker](https://www.docker.com/) installed.
+Ensure that you have [docker](https://www.docker.com/) and [docker-compose](https://docs.docker.com/compose/overview/) installed.
+Check by running `docker -v` and `docker-compose -v` in terminal.
 
 ## Get started
 
@@ -12,10 +13,12 @@ Ensure that you have [docker](https://www.docker.com/) installed.
 
 2) Create an .env file at the root of this project and copy-paste content from .env.example into it.
 
-3) `docker build -t escala .`
+3) `cd escala`
 
-4) `docker run -p 8000:80 escala`
+3) Install dependencies: `docker-compose run composer` (this may take a few minutes)
 
-5) The system is now up and running at [http://localhost:8000/](http://localhost:8000/)
+4) `docker-compose up`
 
-From here on you can always boot up this service just by running `docker run -p 8000:80 escala`
+5) The system is now up and running at [localhost](http://localhost)
+
+From here on you can always boot up this system just by running `docker-compose up`

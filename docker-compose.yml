@@ -14,6 +14,6 @@ services:
   composer:
     image: composer:latest
     volumes:
-      - ./composer.json:/escala/composer.json
+      - ./:/escala
     working_dir: /escala
     command: install

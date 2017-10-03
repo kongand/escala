@@ -11,14 +11,14 @@ Check by running `docker -v` and `docker-compose -v` in terminal.
 
 1) `git clone https://github.com/kongand/escala.git`
 
-2) Create an .env file at the root of this project and copy-paste content from .env.example into it.
+2) `cd escala`
 
-3) `cd escala`
+3) Create an .env file at the root of this project and copy-paste content from .env.example into it.
 
-3) Install dependencies: `docker-compose run composer` (this may take a few minutes)
+4) Install dependencies: `docker-compose run composer` (this may take a few minutes)
 
-4) `docker-compose up`
+5) `docker-compose up`
 
-5) The system is now up and running at [localhost](http://localhost)
+6) The system is now up and running at [localhost](http://localhost)
 
 From here on you can always boot up this system just by running `docker-compose up`

@@ -22,3 +22,5 @@ Check by running `docker -v` and `docker-compose -v` in terminal.
 6) The system is now up and running at [localhost](http://localhost)
 
 From here on you can always boot up this system just by running `docker-compose up`
+
+## Branch Management

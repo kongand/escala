@@ -33,9 +33,9 @@ There are 2 main branches: master and develop. As a developer you should never t
 
 3) run `chmod +x hooks/pre-commit`
 
-4) run `chmod +x hooks/pre-pre-push`
+4) run `chmod +x hooks/pre-push`
 
-Following these steps will help you prevent doing anything on master
+Following these steps will prevent you from commiting or pushing anything to master branch.
 
 ## Branch Management (in-depth)
 
